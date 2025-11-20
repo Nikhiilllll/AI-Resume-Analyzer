@@ -114,7 +114,7 @@ def insertf_data(feed_name,feed_email,feed_score,comments,Timestamp):
     rec_values = (feed_name, feed_email, feed_score, comments, Timestamp)
     cursor.execute(insertfeed_sql, rec_values)
     connection.commit()
-    
+
 
 
 ###### Setting Page Configuration (favicon, Logo, Title) ######
